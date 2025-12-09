@@ -21,5 +21,25 @@ The project consists of three main modules:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/astro-copilot.git](https://github.com/YOUR_USERNAME/astro-copilot.git)
-   cd astro-copilot
+   git clone https://github.com/Capriel2003/MAFORAI-test.git
+   cd MAFORAI-test
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Setup Local LLM (Recommended):
+- Download and install LM Studio.
+- Load a model (e.g., Llama-3.2-3B-Instruct).
+- Start the Local Server on port 1234.
+
+## ▶️ Usage
+Run the main script:
+   ```bash
+   python main.py
+   ```
+The script will:
+- Load sources_sample.json.
+- Connect to the Local LLM at http://localhost:1234/v1.
+- Analyze the most relevant objects.
+- Output the results to copilot_results.csv.
