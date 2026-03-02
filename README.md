@@ -1,6 +1,6 @@
 # Astronomical Transient Classification Copilot
 
-## 🌌 Overview
+## Overview
 This project implements an intelligent data processing pipeline and an AI-powered "Copilot" designed to assist astronomers in analyzing transient events (Supernovae, Variable Stars, etc.) from the Skyportal platform.
 
 The system processes raw JSON data, extracts critical photometric and spectral features, and utilizes a **Large Language Model (LLM)** to generate scientific summaries, classification reasoning, and observational recommendations.
@@ -17,7 +17,7 @@ The project consists of three main modules:
 2.  **`intelligent_agent.py`**: The "Brain" of the system. It connects to the LLM (via OpenAI-compatible local endpoint) to perform reasoning tasks.
 3.  **`main.py`**: The orchestrator that executes the workflow and generates reports.
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -33,7 +33,7 @@ The project consists of three main modules:
 - Load a model (e.g., Llama-3.2-3B-Instruct).
 - Start the Local Server on port 1234.
 
-## ▶️ Usage
+## Usage
 Run the main script:
    ```bash
    python main.py
